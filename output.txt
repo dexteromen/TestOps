@@ -1,0 +1,81 @@
+npx mocha test_suite.js --reporter mochawesome
+
+
+  Xenonstack Functional and Non-Functional Testing
+Invalid input test for first name validation passed.
+Invalid input test for last name validation passed.
+Invalid input test for email validation passed.
+Invalid input test for contact number validation passed.
+Invalid input test for company name validation passed.
+✅Invalid input test validation passed.
+    ✔ Test Case 1: should validate invalid inputs (49545ms)
+Valid input test completed successfully
+    ✔ Test Case 2: should validate valid inputs (49418ms)
+    1) Test Case 3: should test all buttons on the website
+Invalid page handling test passed: Correct error message displayed
+    ✔ Test Case 4: should handle invalid page gracefully (48215ms)
+Clicked on 'Foundry' and page scrolled.
+Clicked on 'Neural AI' and page scrolled.
+Clicked on 'NexaStack' and page scrolled.
+Clicked on 'ElixirData' and page scrolled.
+Clicked on 'MetaSecure' and page scrolled.
+Clicked on 'Akira AI' and page scrolled.
+Clicked on 'XAI' and page scrolled.
+Navbar test case completed successfully
+    ✔ Test Case 5: should test navbar links (56395ms)
+Test passed: The logo click scrolled the page to the top.
+    ✔ Test Case 6: should test Xenonstack logo click (51292ms)
+desktop: Website loaded successfully at 1920x1080 resolution
+desktop: Scrolled down the webpage successfully
+tablet: Website loaded successfully at 768x1024 resolution
+tablet: Scrolled down the webpage successfully
+mobile: Website loaded successfully at 375x667 resolution
+mobile: Scrolled down the webpage successfully
+Compatibility testing for different devices completed.
+    ✔ Test Case 7: should perform compatibility tests for different devices (146338ms)
+Page Load Time: 47977 ms
+    2) Test Case 8: should measure page load time
+Button Click Response Time: 121 ms
+Second Button Click Response Time: 91 ms
+    ✔ Test Case 9: should measure button click response time (49205ms)
+⏱️ Ensuring All Footer Links Are Checked Without Skips.
+    3) Test Case 10: should check all footer links and throw an error if any link is not working
+
+
+  7 passing (9m)
+  3 failing
+
+  1) Xenonstack Functional and Non-Functional Testing
+       Test Case 3: should test all buttons on the website:
+     NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://www.akira.ai/']//div[@class='product-button']//p[contains(text(),'Explore Further')]"}
+  (Session info: chrome=134.0.6998.165)
+      at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+      at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:524:13)
+      at Executor.execute (node_modules/selenium-webdriver/lib/http.js:456:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:745:17)
+      at async clickElement (test_suite.js:7:21)
+      at async Context.<anonymous> (test_suite.js:382:9)
+
+  2) Xenonstack Functional and Non-Functional Testing
+       Test Case 8: should measure page load time:
+     Error: Page load time is more than 4 seconds (47977 ms).
+      at Context.<anonymous> (test_suite.js:599:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) Xenonstack Functional and Non-Functional Testing
+       Test Case 10: should check all footer links and throw an error if any link is not working:
+     TimeoutError: timeout: Timed out receiving message from renderer: 8.794
+  (Session info: chrome=134.0.6998.165)
+      at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)
+      at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:524:13)
+      at Executor.execute (node_modules/selenium-webdriver/lib/http.js:456:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:745:17)
+      at async Context.<anonymous> (test_suite.js:758:13)
+
+
+
+[mochawesome] Report JSON saved to /home/xs535-himary/Downloads/DATA/TestOps/Himanshu_TestOps/mochawesome-report/mochawesome.json
+
+[mochawesome] Report HTML saved to /home/xs535-himary/Downloads/DATA/TestOps/Himanshu_TestOps/mochawesome-report/mochawesome.html

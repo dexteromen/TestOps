@@ -1,0 +1,322 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 10,
+    "passes": 7,
+    "pending": 0,
+    "failures": 3,
+    "start": "2025-03-31T14:19:04.433Z",
+    "end": "2025-03-31T14:32:31.286Z",
+    "duration": 806853,
+    "testsRegistered": 10,
+    "passPercent": 70,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0017d6fc-99e2-4b04-819f-790c455c183b",
+      "title": "",
+      "fullFile": "/home/xs535-himary/Downloads/DATA/TestOps/Himanshu_TestOps/Xenonstack_TestOps.js",
+      "file": "/Xenonstack_TestOps.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+          "title": "Xenonstack Functional and Non-Functional Testing",
+          "fullFile": "/home/xs535-himary/Downloads/DATA/TestOps/Himanshu_TestOps/Xenonstack_TestOps.js",
+          "file": "/Xenonstack_TestOps.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Xenonstack Functional and Non-Functional Testing\"",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing \"before all\" hook in \"Xenonstack Functional and Non-Functional Testing\"",
+              "timedOut": false,
+              "duration": 700,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "driver = await new Builder().forBrowser(\"chrome\").build();",
+              "err": {},
+              "uuid": "6bba3f5a-3823-4108-aafd-c51ae93c3f93",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"Xenonstack Functional and Non-Functional Testing\"",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing \"after all\" hook in \"Xenonstack Functional and Non-Functional Testing\"",
+              "timedOut": false,
+              "duration": 52,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.quit();",
+              "err": {},
+              "uuid": "23d4fdf9-6194-476a-b4a2-fcf94fd4560b",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Test Case 1: should validate invalid inputs",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 1: should validate invalid inputs",
+              "timedOut": false,
+              "duration": 50074,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.manage().window().maximize();\nawait driver.get(\"https://www.xenonstack.com/\");\nawait driver\n    .wait(\n        until.elementLocated(By.xpath(\"//div[@class='nav-button']//a\")),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='Firstname']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"#2456sd\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='Lastname']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"@9u7t\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(\n                By.xpath(\"//div[@class='form-field-outer-wrapper']//div[1]\")\n            )\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='emailid']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"Varybv098\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(\n                By.xpath(\"//div[@class='form-field-outer-wrapper']//div[1]\")\n            )\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='contactnumber']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"12343\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(\n                By.xpath(\"//div[@class='form-field-outer-wrapper']//div[1]\")\n            )\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='companyname']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"23e\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//select[@id='enterpriseIndustry']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"Financial Services\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(\n                By.xpath(\n                    \"//div[@id='form-step-one']//div[@class='next-step-button-wrapper']\"\n                )\n            )\n        ),\n        10000\n    )\n    .click();\nlet validationPassed = true;\ntry {\n    let firstNameValidation = await driver.wait(\n        until.elementLocated(\n            By.xpath(\"//*[contains(text(),'Please enter a valid First Name')]\")\n        ),\n        5000\n    );\n    console.log(\"Invalid input test for first name validation passed.\");\n} catch (err) {\n    validationPassed = false;\n    console.log(\"Invalid input test for first name validation failed.\");\n}\ntry {\n    let lastNameValidation = await driver.wait(\n        until.elementLocated(\n            By.xpath(\"//*[contains(text(),'Please enter a valid Last Name')]\")\n        ),\n        5000\n    );\n    console.log(\"Invalid input test for last name validation passed.\");\n} catch (err) {\n    validationPassed = false;\n    console.log(\"Invalid input test for last name validation failed.\");\n}\ntry {\n    let emailValidation = await driver.wait(\n        until.elementLocated(\n            By.xpath(\n                \"//*[contains(text(),'Please enter a valid Business Email ID')]\"\n            )\n        ),\n        5000\n    );\n    console.log(\"Invalid input test for email validation passed.\");\n} catch (err) {\n    validationPassed = false;\n    console.log(\"Invalid input test for email validation failed.\");\n}\ntry {\n    let contactNumberValidation = await driver.wait(\n        until.elementLocated(\n            By.xpath(\n                \"//*[contains(text(),'Please enter a valid Contact Number')]\"\n            )\n        ),\n        5000\n    );\n    console.log(\"Invalid input test for contact number validation passed.\");\n} catch (err) {\n    validationPassed = false;\n    console.log(\"Invalid input test for contact number validation failed.\");\n}\ntry {\n    let companyNameValidation = await driver.wait(\n        until.elementLocated(\n            By.xpath(\"//*[contains(text(),'Please enter a valid Company Name')]\")\n        ),\n        5000\n    );\n    console.log(\"Invalid input test for company name validation passed.\");\n} catch (err) {\n    validationPassed = false;\n    console.log(\"Invalid input test for company name validation failed.\");\n}\nif (validationPassed) {\n    console.log(\"✅Invalid input test validation passed.\");\n} else {\n    console.log(\"❌ Invalid input test validation failed.\");\n}",
+              "err": {},
+              "uuid": "a14b1145-abfe-4b55-985a-8feac5431643",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 2: should validate valid inputs",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 2: should validate valid inputs",
+              "timedOut": false,
+              "duration": 62886,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.manage().window().maximize();\nawait driver.get(\"https://www.xenonstack.com/\");\nawait driver\n    .wait(\n        until.elementLocated(\n            By.xpath(\"//span[normalize-space()='Get Started']\")\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='Firstname']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"Varun\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='Lastname']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"Verma\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='emailid']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"varunverma823@gmail.com\");\nlet contactNumber = await driver.wait(\n    until.elementIsVisible(\n        driver.findElement(By.xpath(\"//input[@id='contactnumber']\"))\n    ),\n    10000\n);\nawait contactNumber.click();\nawait contactNumber.sendKeys(\"1234567890\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//input[@id='companyname']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"xenon\");\nawait driver\n    .wait(\n        until.elementIsVisible(\n            driver.findElement(By.xpath(\"//select[@id='enterpriseIndustry']\"))\n        ),\n        10000\n    )\n    .sendKeys(\"Software Development\");\nawait driver\n    .wait(\n        until.elementLocated(By.xpath(\"//p[normalize-space()='Proceed Next']\")),\n        10000\n    )\n    .click();\nlet stepTwo = await driver.wait(\n    until.elementIsVisible(\n        driver.findElement(By.xpath(\"//div[@id='form-step-two']\"))\n    ),\n    10000\n);\nawait stepTwo.click();\nawait driver\n    .wait(\n        until.elementLocated(\n            By.xpath(\n                \"//p[normalize-space()='Akira AI - Agentic AI Platform Multi Agent System']\"\n            )\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementLocated(By.xpath(\"//p[normalize-space()='Startup']\")),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementLocated(\n            By.xpath(\"//p[normalize-space()='Data and Analytics']\")\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementLocated(\n            By.xpath(\"//p[normalize-space()='POC Completed']\")\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementLocated(\n            By.xpath(\"//p[normalize-space()='Aligning AI with business goals']\")\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementLocated(By.xpath(\"//p[normalize-space()='AWS']\")),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementLocated(By.xpath(\"//p[normalize-space()='SnowFlake']\")),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementLocated(\n            By.xpath(\n                \"//p[normalize-space()='Assisted Intelligence Agents as Co-Pilot']\"\n            )\n        ),\n        10000\n    )\n    .click();\nawait driver\n    .wait(\n        until.elementLocated(\n            By.xpath(\"//p[normalize-space()='Internal Organization']\")\n        ),\n        10000\n    )\n    .click();\nawait driver.executeScript(\n    \"arguments[0].scrollIntoView(true);\",\n    driver.findElement(\n        By.xpath(\"//p[contains(text(),'Internal Organization')]\")\n    )\n);\nawait driver\n    .wait(\n        until.elementLocated(By.xpath(\"//p[normalize-space()='Submit']\")),\n        10000\n    )\n    .click();\nconsole.log(\"Valid input test completed successfully\");",
+              "err": {},
+              "uuid": "871d2575-c446-4e1e-ba02-4ef267bbd654",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 3: should test all buttons on the website",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 3: should test all buttons on the website",
+              "timedOut": true,
+              "duration": 250017,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "await driver.manage().window().maximize();\nawait driver.get(\"https://www.xenonstack.com/\");\nawait driver.executeScript(\n    \"window.scrollTo(0, document.body.scrollHeight);\"\n);\nawait driver.sleep(1000);\nawait clickElement(\n    driver,\n    By.xpath(\n        \"//a[@href='https://www.xenonstack.com/agentic-platforms/akira-ai/']//div[@class='product-button']//p[contains(text(),'Explore Further')]\"\n    )\n);\nawait driver.navigate().back();\nawait clickElement(\n    driver,\n    By.xpath(\n        \"//a[@href='https://www.xenonstack.com/agentic-platforms/elixirdata/']//div[@class='product-button']//p[contains(text(),'Explore Further')]\"\n    )\n);\nawait driver.navigate().back();\nawait clickElement(\n    driver,\n    By.xpath(\n        \"//a[@href='https://www.xenonstack.com/agentic-platforms/neural-ai/']//div[@class='product-button']//p[contains(text(),'Explore Further')]\"\n    )\n);\nawait driver.navigate().back();\nawait clickElement(\n    driver,\n    By.xpath(\n        \"//a[@href='https://www.xenonstack.com/agentic-platforms/nexastack-unified-inference/']//div[@class='product-button']//p[contains(text(),'Explore Further')]\"\n    )\n);\nawait driver.navigate().back();\nawait clickElement(\n    driver,\n    By.xpath(\"//p[normalize-space()='Discover Now']\")\n);\nawait driver.navigate().back();\nawait clickElement(\n    driver,\n    By.xpath(\n        \"//a[@href='https://www.xenonstack.com/agentic-platforms/metasecure/']//div[@class='product-button']//p[contains(text(),'Explore Further')]\"\n    )\n);\nawait driver.navigate().back();\nawait clickElement(\n    driver,\n    By.xpath(\n        \"//a[@href='https://www.xenonstack.com/xenonstack-academy/']//div[@class='product-button']//p[contains(text(),'Explore Further')]\"\n    )\n);\nawait driver.navigate().back();\nawait clickElement(\n    driver,\n    By.xpath(\"//div[@class='first-mid-banner-button']//p[contains(text(),'Discover More')]\")\n);\nawait driver.navigate().back();\nawait driver.executeScript(\"window.scrollTo(0, 0);\");\nawait driver.sleep(1000);\nawait clickElement(\n    driver,\n    By.xpath(\"//div[@class='second-mid-banner-button'] //a[@href='https://xenonify.ai/']\")\n);\nawait driver.navigate().back();\nawait driver.executeScript(\n    \"window.scrollTo(0, document.body.scrollHeight);\"\n);\nawait driver.sleep(1000);\nawait driver.navigate().back();\nconsole.log(\"All buttons are working properly\");",
+              "err": {
+                "message": "Error: Timeout of 250000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/xs535-himary/Downloads/DATA/TestOps/Himanshu_TestOps/Xenonstack_TestOps.js)",
+                "estack": "Error: Timeout of 250000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/xs535-himary/Downloads/DATA/TestOps/Himanshu_TestOps/Xenonstack_TestOps.js)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)",
+                "diff": null
+              },
+              "uuid": "e21e060e-b996-4be9-8899-16284d67c2bc",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 4: should handle invalid page gracefully",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 4: should handle invalid page gracefully",
+              "timedOut": false,
+              "duration": 69024,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.manage().window().maximize();\nawait driver.get(\"https://www.xenonstack.com/invalid-page\");\nawait driver.sleep(1000);\nlet errorMessage;\ntry {\n    errorMessage = await driver.findElement(By.tagName(\"h1\")).getText();\n} catch (err) {\n    errorMessage = await driver.findElement(By.tagName(\"body\")).getText();\n}\nif (\n    errorMessage.includes(\"404\") ||\n    errorMessage.includes(\"Page Not Found\") ||\n    errorMessage.includes(\"error\")\n) {\n    console.log(\n        \"Invalid page handling test passed: Correct error message displayed\"\n    );\n} else {\n    console.log(\n        \"Invalid page handling test failed: Unexpected message displayed\"\n    );\n}",
+              "err": {},
+              "uuid": "89b8037a-72dd-4578-b7d3-0108de3fac7b",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 5: should test navbar links",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 5: should test navbar links",
+              "timedOut": false,
+              "duration": 50285,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.manage().window().maximize();\nawait driver.get(\"https://www.xenonstack.com/\");\nasync function clickAndCheckRedirection(xpath, linkName) {\n    const oldUrl = await driver.getCurrentUrl();\n    await driver.findElement(By.xpath(xpath)).click();\n    await driver.sleep(1000);\n    const newUrl = await driver.getCurrentUrl();\n    if (newUrl !== oldUrl) {\n        console.log(`Clicked on '${linkName}' and redirected to a new page.`);\n    }else if(newUrl === oldUrl){\n        console.log(`Clicked on '${linkName}' and page scrolled.`)\n    }\n    else {\n        throw new Error(`Clicked on '${linkName}' but not redirected to a new page.`);\n    }\n}\nawait clickAndCheckRedirection(\n    \"//p[normalize-space()='Foundry']\",\n    \"Foundry\"\n);\nawait clickAndCheckRedirection(\n    \"//p[normalize-space()='Neural AI']\",\n    \"Neural AI\"\n);\nawait clickAndCheckRedirection(\n    \"//p[contains(text(),'NexaStack')]\",\n    \"NexaStack\"\n);\nawait clickAndCheckRedirection(\n    \"//p[contains(text(),'ElixirData')]\",\n    \"ElixirData\"\n);\nawait clickAndCheckRedirection(\n    \"//p[contains(text(),'MetaSecure')]\",\n    \"MetaSecure\"\n);\nawait clickAndCheckRedirection(\n    \"//li[@class='nav-li item']//p[contains(text(),'Akira AI')]\",\n    \"Akira AI\"\n);\nawait clickAndCheckRedirection(\"//p[normalize-space()='XAI']\", \"XAI\");\nconsole.log(\"Navbar test case completed successfully\");",
+              "err": {},
+              "uuid": "fe5984c3-28c0-448f-a210-2c0798dddb9f",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 6: should test Xenonstack logo click",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 6: should test Xenonstack logo click",
+              "timedOut": false,
+              "duration": 48796,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.manage().window().maximize();\nawait driver.get(\"https://www.xenonstack.com/\");\nawait driver.executeScript(\n    \"window.scrollTo(0, document.body.scrollHeight);\"\n);\nawait driver.sleep(1000);\nconst logo = await driver.findElement(\n    By.xpath(\"//li[@class='nav-li logo-li']//a\")\n);\nawait driver.executeScript(\"arguments[0].click();\", logo);\nawait driver.sleep(1000);\nconst scrollPosition = await driver.executeScript(\n    \"return window.pageYOffset;\"\n);\nif (scrollPosition === 0) {\n    console.log(\"Test passed: The logo click scrolled the page to the top.\");\n} else {\n    console.log(\n        \"Test failed: The logo click did not scroll the page to the top.\"\n    );\n}",
+              "err": {},
+              "uuid": "7661299c-9b3b-4687-b361-0a67ee9a0d1a",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 7: should perform compatibility tests for different devices",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 7: should perform compatibility tests for different devices",
+              "timedOut": false,
+              "duration": 146497,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const devices = [\"desktop\", \"tablet\", \"mobile\"];\nasync function compatibilityTest(device) {\n    let driver;\n    const deviceDimensions = {\n        desktop: { width: 1920, height: 1080 },\n        tablet: { width: 768, height: 1024 },\n        mobile: { width: 375, height: 667 },\n    };\n    try {\n        driver = await new Builder().forBrowser(\"chrome\").build();\n        await driver.manage().window().setRect(deviceDimensions[device]);\n        await driver.get(\"https://www.xenonstack.com/\");\n        console.log(\n            `${device}: Website loaded successfully at ${deviceDimensions[device].width}x${deviceDimensions[device].height} resolution`\n        );\n        await driver.executeScript(\"window.scrollBy(0, 1000);\");\n        console.log(`${device}: Scrolled down the webpage successfully`);\n    } catch (err) {\n        console.log(`${device}: Error encountered - ${err.message}`);\n    } finally {\n        if (driver) {\n            await driver.quit();\n        }\n    }\n}\nfor (const device of devices) {\n    await compatibilityTest(device);\n}\nconsole.log(\"Compatibility testing for different devices completed.\");",
+              "err": {},
+              "uuid": "a5c85747-2ad1-49fe-b3e6-58ac95de654c",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 8: should measure page load time",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 8: should measure page load time",
+              "timedOut": false,
+              "duration": 48671,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "let driver = await new Builder().forBrowser(\"chrome\").build();\ntry {\n    let startTime = new Date().getTime();\n    await driver.manage().window().maximize();\n    await driver.get(\"https://www.xenonstack.com/\");\n    let endTime = new Date().getTime();\n    let loadTime = endTime - startTime;\n    console.log(`Page Load Time: ${loadTime} ms`);\n    if (loadTime > 4000) {\n        throw new Error(`Page load time is more than 4 seconds (${loadTime} ms).`);\n    } else {\n        console.log(\"Test case passed successfully\");\n    }\n} finally {\n    await driver.quit();\n}",
+              "err": {
+                "message": "Error: Page load time is more than 4 seconds (47990 ms).",
+                "estack": "Error: Page load time is more than 4 seconds (47990 ms).\n    at Context.<anonymous> (Xenonstack_TestOps.js:601:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+                "diff": null
+              },
+              "uuid": "f387af1e-bed7-40bd-8a10-16618fd6af3f",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 9: should measure button click response time",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 9: should measure button click response time",
+              "timedOut": false,
+              "duration": 49084,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let driver = await new Builder().forBrowser(\"chrome\").build();\ntry {\n    await driver.manage().window().maximize();\n    await driver.get(\"https://www.xenonstack.com/\");\n    let getStartedButton = await driver.findElement(\n        By.xpath(\"//span[normalize-space()='Get Started']\")\n    );\n    let startTime = new Date().getTime();\n    await getStartedButton.click();\n    await driver.wait(\n        until.urlContains(\"https://www.xenonstack.com/\"),\n        10000\n    );\n    let endTime = new Date().getTime();\n    let responseTime = endTime - startTime;\n    console.log(`Button Click Response Time: ${responseTime} ms`);\n    startTime = new Date().getTime();\n    await getStartedButton.click();\n    await driver.wait(\n        until.urlContains(\"https://www.xenonstack.com/\"),\n        10000\n    );\n    endTime = new Date().getTime();\n    responseTime = endTime - startTime;\n    console.log(`Second Button Click Response Time: ${responseTime} ms`);\n} finally {\n    await driver.quit();\n}",
+              "err": {},
+              "uuid": "7024cb45-163d-4eda-aaae-cb3d8350cd3e",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Case 10: should check all footer links and throw an error if any link is not working",
+              "fullTitle": "Xenonstack Functional and Non-Functional Testing Test Case 10: should check all footer links and throw an error if any link is not working",
+              "timedOut": false,
+              "duration": 30752,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "let driver = await new Builder().forBrowser('chrome').build();\nconst wait = driver.manage().setTimeouts({ implicit: 30000, pageLoad: 30000, script: 30000 });\ntry {\n    logger.info('⏱️ Ensuring All Footer Links Are Checked Without Skips.');\n    await driver.manage().window().maximize();\n    await driver.get('https://xenonstack.com/');\n    await pageLoader(driver);\n    let links = await extractLinks(driver, 'footer');\n    if (links.length === 0) {\n        logger.error('❌ FOOTER TEST FAILED - No links found in the footer!');\n        throw new Error('No footer links found.');\n    }\n    const totalLinks = links.length;\n    logger.info(`💯 Total Footer Links Found: ${totalLinks}`);\n    let idx = 0;\n    while (idx < totalLinks) {\n        let retries = 2;\n        while (retries > 0) {\n            try {\n                links = await extractLinks(driver, 'footer');\n                if (idx >= links.length) {\n                    logger.warn(`⏭️ Skipping missing link at index ${idx}`);\n                    break;\n                }\n                const link = links[idx];\n                let linkText = (await link.getText()).trim();\n                const href = await link.getAttribute('href');\n                if (!linkText) {\n                    try {\n                        const img = await link.findElement(By.tagName('img'));\n                        const altText = await img.getAttribute('alt');\n                        if (altText) {\n                            linkText = altText.trim();\n                        }\n                    } catch (err) {\n                        // Ignore NoSuchElementException\n                    }\n                    if (!linkText) {\n                        linkText = 'N/A';\n                    }\n                }\n                if (!href) {\n                    logger.error(`⏭️ Skipping '${linkText}' - No href attribute.`);\n                    throw new Error(`Skipping '${linkText}' - No href attribute.`);\n                }\n                logger.info(`⏰ Checking Footer Link ${idx + 1}/${totalLinks}: ${href} -> ${linkText}`);\n                if (!href.toLowerCase().includes('xenonstack.com')) {\n                    await checkExternalLink(href, linkText);\n                } else {\n                    const oldUrl = await driver.getCurrentUrl();\n                    await checkInternalLink(driver, link, linkText, oldUrl);\n                }\n                break;\n            } catch (err) {\n                retries -= 1;\n                logger.warn('⏳ Stale element error. Retrying...');\n            }\n        }\n        idx += 1;\n    }\n    logger.info('✅ Footer Test Completed Successfully.');\n} finally {\n    await driver.quit();\n}",
+              "err": {
+                "message": "TimeoutError: timeout: Timed out receiving message from renderer: 29.038\n  (Session info: chrome=134.0.6998.165)",
+                "estack": "TimeoutError: timeout: Timed out receiving message from renderer: 29.038\n  (Session info: chrome=134.0.6998.165)\n    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:521:15)\n    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:524:13)\n    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:456:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:745:17)\n    at async Context.<anonymous> (Xenonstack_TestOps.js:760:13)",
+                "diff": null
+              },
+              "uuid": "8dde02fa-bc6d-48a4-88dd-a1e061890254",
+              "parentUUID": "0ac9e738-0cbc-45cf-8829-c32861e18b75",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a14b1145-abfe-4b55-985a-8feac5431643",
+            "871d2575-c446-4e1e-ba02-4ef267bbd654",
+            "89b8037a-72dd-4578-b7d3-0108de3fac7b",
+            "fe5984c3-28c0-448f-a210-2c0798dddb9f",
+            "7661299c-9b3b-4687-b361-0a67ee9a0d1a",
+            "a5c85747-2ad1-49fe-b3e6-58ac95de654c",
+            "7024cb45-163d-4eda-aaae-cb3d8350cd3e"
+          ],
+          "failures": [
+            "e21e060e-b996-4be9-8899-16284d67c2bc",
+            "f387af1e-bed7-40bd-8a10-16618fd6af3f",
+            "8dde02fa-bc6d-48a4-88dd-a1e061890254"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 806086,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 250000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.1.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
