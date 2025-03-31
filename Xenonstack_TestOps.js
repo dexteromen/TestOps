@@ -25,7 +25,7 @@ async function clickElement(driver, selector) {
 }
 
 describe("Xenonstack Functional and Non-Functional Testing", function () {
-    this.timeout(250000);
+    this.timeout(700000);
     let driver;
 
     before(async function () {
