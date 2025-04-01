@@ -1,0 +1,767 @@
+npx mocha .\Xenonstack_TestOps.js --reporter mochawesome
+
+
+  Xenonstack Website Testing
+
+DevTools listening on ws://127.0.0.1:57295/devtools/browser/d6bbcfe6-9b34-4998-a88b-65e8572b2654
+
+DevTools listening on ws://127.0.0.1:57308/devtools/browser/7e76e541-1b45-452c-ad7d-ce1237b53400
+⏱️ Ensuring All Footer Links Are Checked Without Skips.
+✅ Page loaded successfully.
+💯 Total Footer Links Found: 109
+⏰ Checking Footer Link 1/109: https://www.youtube.com/c/XenonStackOfficial -> Youtube
+External link 'Youtube' is valid. [HTTP 200]
+⏰ Checking Footer Link 2/109: https://www.linkedin.com/company/xenonstack/ -> LinkedIn
+External link 'LinkedIn' is valid. [HTTP 200]
+⏰ Checking Footer Link 3/109: https://github.com/xenonstack -> Github
+External link 'Github' is valid. [HTTP 200]
+⏰ Checking Footer Link 4/109: https://twitter.com/xenonstack -> Twitter
+Failed request for 'Twitter': Request failed with status code 400
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 4/109: https://twitter.com/xenonstack -> Twitter
+Failed request for 'Twitter': Request failed with status code 400
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 5/109: https://medium.com/@xenonstack -> Medium
+Failed request for 'Medium': Request failed with status code 403
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 5/109: https://medium.com/@xenonstack -> Medium
+Failed request for 'Medium': Request failed with status code 403
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 6/109: https://www.instagram.com/teamxenonstack/ -> Instagram
+External link 'Instagram' is valid. [HTTP 200]
+⏰ Checking Footer Link 7/109: https://www.xenonstack.com/artificial-intelligence/composite-ai/ -> Composite AI
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+✅ Page loaded successfully.
+Error opening 'Composite AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 7/109: https://www.xenonstack.com/artificial-intelligence/composite-ai/ -> Composite AI
+✅ Page loaded successfully.
+Error opening 'Composite AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 8/109: https://www.xenonstack.com/artificial-intelligence/decision-ai/ -> Decision AI
+✅ Page loaded successfully.
+Error opening 'Decision AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 8/109: https://www.xenonstack.com/artificial-intelligence/decision-ai/ -> Decision AI
+✅ Page loaded successfully.
+Error opening 'Decision AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'AI Quality' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'AI Quality' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 10/109: https://www.xenonstack.com/generative-ai -> Generative AI
+✅ Page loaded successfully.
+Error opening 'Generative AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 10/109: https://www.xenonstack.com/generative-ai -> Generative AI
+✅ Page loaded successfully.
+Error opening 'Generative AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 11/109: https://www.xenonstack.com/artifical-intelligence/multimodal-ai/ -> Multimodal AI
+✅ Page loaded successfully.
+Error opening 'Multimodal AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 11/109: https://www.xenonstack.com/artifical-intelligence/multimodal-ai/ -> Multimodal AI
+✅ Page loaded successfully.
+Error opening 'Multimodal AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 12/109: https://www.xenonstack.com/artifical-intelligence/explainable-ai/ -> AI Assurance
+✅ Page loaded successfully.
+Error opening 'AI Assurance': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 12/109: https://www.xenonstack.com/artifical-intelligence/explainable-ai/ -> AI Assurance
+✅ Page loaded successfully.
+Error opening 'AI Assurance': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'MLOps' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'MLOps' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Physical AI' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Physical AI' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 15/109: https://www.xenonstack.com/artifical-intelligence/ai-augmented-software-development/ -> Augmented Engineering
+✅ Page loaded successfully.
+Error opening 'Augmented Engineering': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 15/109: https://www.xenonstack.com/artifical-intelligence/ai-augmented-software-development/ -> Augmented Engineering
+✅ Page loaded successfully.
+Error opening 'Augmented Engineering': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 16/109: https://www.xenonstack.com/artificial-intelligence/generative-bi/ -> Generative BI
+✅ Page loaded successfully.
+Error opening 'Generative BI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 16/109: https://www.xenonstack.com/artificial-intelligence/generative-bi/ -> Generative BI
+✅ Page loaded successfully.
+Error opening 'Generative BI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 17/109: https://www.xenonstack.com/dataops/streaming-data-platform/ -> Streaming Data Platform
+✅ Page loaded successfully.
+Error opening 'Streaming Data Platform': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 17/109: https://www.xenonstack.com/dataops/streaming-data-platform/ -> Streaming Data Platform
+✅ Page loaded successfully.
+Error opening 'Streaming Data Platform': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 18/109: https://www.xenonstack.com/dataops/delta-lake/ -> Data Lakehouse
+✅ Page loaded successfully.
+Error opening 'Data Lakehouse': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 18/109: https://www.xenonstack.com/dataops/delta-lake/ -> Data Lakehouse
+✅ Page loaded successfully.
+Error opening 'Data Lakehouse': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 19/109: https://www.xenonstack.com/dataops/data-catalog/ -> Data Catalog
+✅ Page loaded successfully.
+Error opening 'Data Catalog': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 19/109: https://www.xenonstack.com/dataops/data-catalog/ -> Data Catalog
+✅ Page loaded successfully.
+Error opening 'Data Catalog': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 20/109: https://www.xenonstack.com/dataops/data-observability/ -> Data Observability
+✅ Page loaded successfully.
+Error opening 'Data Observability': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 20/109: https://www.xenonstack.com/dataops/data-observability/ -> Data Observability
+✅ Page loaded successfully.
+Error opening 'Data Observability': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 21/109: https://www.xenonstack.com/dataops/cloud-data-warehouse/ -> Cloud Data Warehouse
+✅ Page loaded successfully.
+Error opening 'Cloud Data Warehouse': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 21/109: https://www.xenonstack.com/dataops/cloud-data-warehouse/ -> Cloud Data Warehouse
+✅ Page loaded successfully.
+Error opening 'Cloud Data Warehouse': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 22/109: https://www.xenonstack.com/dataops/data-engineering/ -> Data Engineering
+✅ Page loaded successfully.
+Error opening 'Data Engineering': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 22/109: https://www.xenonstack.com/dataops/data-engineering/ -> Data Engineering
+✅ Page loaded successfully.
+Error opening 'Data Engineering': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'MetaData Management' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'MetaData Management' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 24/109: https://www.xenonstack.com/dataops/augmented-data-quality/ -> Data Quality
+✅ Page loaded successfully.
+Error opening 'Data Quality': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 24/109: https://www.xenonstack.com/dataops/augmented-data-quality/ -> Data Quality
+✅ Page loaded successfully.
+Error opening 'Data Quality': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 25/109: https://www.xenonstack.com/dataops/real-time-analytics/ -> Real Time Analytics
+✅ Page loaded successfully.
+Error opening 'Real Time Analytics': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 25/109: https://www.xenonstack.com/dataops/real-time-analytics/ -> Real Time Analytics
+✅ Page loaded successfully.
+Error opening 'Real Time Analytics': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Data Modernization' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Data Modernization' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 27/109: https://www.xenonstack.com/solutions/cloud-native-applications/ -> Cloud Native
+✅ Page loaded successfully.
+Error opening 'Cloud Native': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 27/109: https://www.xenonstack.com/solutions/cloud-native-applications/ -> Cloud Native
+✅ Page loaded successfully.
+Error opening 'Cloud Native': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 28/109: https://www.xenonstack.com/cloud-native/automation-as-code -> Automation As Code
+✅ Page loaded successfully.
+Error opening 'Automation As Code': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 28/109: https://www.xenonstack.com/cloud-native/automation-as-code -> Automation As Code
+✅ Page loaded successfully.
+Error opening 'Automation As Code': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 29/109: https://www.xenonstack.com/cloud-native/observability/ -> Observability
+✅ Page loaded successfully.
+Error opening 'Observability': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 29/109: https://www.xenonstack.com/cloud-native/observability/ -> Observability
+✅ Page loaded successfully.
+Error opening 'Observability': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 30/109: https://www.xenonstack.com/cloud-native/finops/ -> FinOps
+✅ Page loaded successfully.
+Error opening 'FinOps': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 30/109: https://www.xenonstack.com/cloud-native/finops/ -> FinOps
+✅ Page loaded successfully.
+Error opening 'FinOps': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 31/109: https://www.xenonstack.com/cloud-native/application-modernization/ -> Application Modernization
+✅ Page loaded successfully.
+Error opening 'Application Modernization': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 31/109: https://www.xenonstack.com/cloud-native/application-modernization/ -> Application Modernization
+✅ Page loaded successfully.
+Error opening 'Application Modernization': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 32/109: https://www.xenonstack.com/cloud-native/devsecops/ -> DevSecOps
+✅ Page loaded successfully.
+Error opening 'DevSecOps': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 32/109: https://www.xenonstack.com/cloud-native/devsecops/ -> DevSecOps
+✅ Page loaded successfully.
+Error opening 'DevSecOps': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 33/109: https://www.xenonstack.com/cloud-native/site-reliability-engineering/ -> Site Reliability Engineering
+✅ Page loaded successfully.
+Error opening 'Site Reliability Engineering': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 33/109: https://www.xenonstack.com/cloud-native/site-reliability-engineering/ -> Site Reliability Engineering
+✅ Page loaded successfully.
+Error opening 'Site Reliability Engineering': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 34/109: https://www.xenonstack.com/cloud-native/progressive-delivery/ -> Progressive Delivery
+✅ Page loaded successfully.
+Error opening 'Progressive Delivery': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 34/109: https://www.xenonstack.com/cloud-native/progressive-delivery/ -> Progressive Delivery
+✅ Page loaded successfully.
+Error opening 'Progressive Delivery': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 35/109: https://www.xenonstack.com/enterprise/gitops/ -> GitOps
+✅ Page loaded successfully.
+Error opening 'GitOps': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 35/109: https://www.xenonstack.com/enterprise/gitops/ -> GitOps
+✅ Page loaded successfully.
+Error opening 'GitOps': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Compliance as code' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Compliance as code' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 37/109: https://www.xenonstack.com/enterprise/value-stream-management/ -> Value Stream Management
+✅ Page loaded successfully.
+Error opening 'Value Stream Management': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 37/109: https://www.xenonstack.com/enterprise/value-stream-management/ -> Value Stream Management
+✅ Page loaded successfully.
+Error opening 'Value Stream Management': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Policy as Code' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Policy as Code' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 39/109: https://www.xenonstack.com/cloud-native/telemetry-pipeline -> Telemetry Pipeline
+✅ Page loaded successfully.
+Error opening 'Telemetry Pipeline': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 39/109: https://www.xenonstack.com/cloud-native/telemetry-pipeline -> Telemetry Pipeline
+✅ Page loaded successfully.
+Error opening 'Telemetry Pipeline': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Agentic Analytics' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Agentic Analytics' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Agentic AI Systems' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Agentic AI Systems' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Process Intelligence' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Process Intelligence' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 43/109: https://www.xenonstack.com/platform-engineering/developer-experience-platform/ -> Developer Experience
+✅ Page loaded successfully.
+Error opening 'Developer Experience': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 43/109: https://www.xenonstack.com/platform-engineering/developer-experience-platform/ -> Developer Experience
+✅ Page loaded successfully.
+Error opening 'Developer Experience': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 44/109: https://www.xenonstack.com/agentic-ai/ -> Autonomous Operations
+✅ Page loaded successfully.
+Error opening 'Autonomous Operations': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 44/109: https://www.xenonstack.com/agentic-ai/ -> Autonomous Operations
+✅ Page loaded successfully.
+Error opening 'Autonomous Operations': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 45/109: https://www.xenonstack.com/solutions/edge-and-vision-ai/ -> AI Vision at EDGE
+✅ Page loaded successfully.
+Error opening 'AI Vision at EDGE': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 45/109: https://www.xenonstack.com/solutions/edge-and-vision-ai/ -> AI Vision at EDGE
+✅ Page loaded successfully.
+Error opening 'AI Vision at EDGE': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Compound AI System' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Compound AI System' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'GUI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'GUI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'CMDB Management' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'CMDB Management' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'ITSM' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'ITSM' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Network Automation' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Network Automation' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'DataBricks AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'DataBricks AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'SnowFlake AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'SnowFlake AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'ServiceNow AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'ServiceNow AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'AWS AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'AWS AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 55/109: https://www.xenonstack.com/ai-agents/microsoft-azure-ai-agents-actions/ -> Microsoft Azure AI Agents
+✅ Page loaded successfully.
+Error opening 'Microsoft Azure AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 55/109: https://www.xenonstack.com/ai-agents/microsoft-azure-ai-agents-actions/ -> Microsoft Azure AI Agents
+✅ Page loaded successfully.
+Error opening 'Microsoft Azure AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 56/109: https://www.xenonstack.com/ai-agents/salesforce-agents-actions/ -> SalesForce AI Agents
+✅ Page loaded successfully.
+Error opening 'SalesForce AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 56/109: https://www.xenonstack.com/ai-agents/salesforce-agents-actions/ -> SalesForce AI Agents
+✅ Page loaded successfully.
+Error opening 'SalesForce AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Microsoft Dynamics AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Microsoft Dynamics AI Agents' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 58/109: https://www.xenonstack.com/ai-agents/mysql-agents-actions/ -> MySQL AI Agents
+✅ Page loaded successfully.
+Error opening 'MySQL AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 58/109: https://www.xenonstack.com/ai-agents/mysql-agents-actions/ -> MySQL AI Agents
+✅ Page loaded successfully.
+Error opening 'MySQL AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 59/109: https://www.xenonstack.com/ai-agents/postgresql-agents-actions/ -> PostgreSQL AI Agents
+✅ Page loaded successfully.
+Error opening 'PostgreSQL AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 59/109: https://www.xenonstack.com/ai-agents/postgresql-agents-actions/ -> PostgreSQL AI Agents
+✅ Page loaded successfully.
+Error opening 'PostgreSQL AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 60/109: https://www.xenonstack.com/ai-agents/datadog-agents-actions/ -> Datadog AI Agents
+✅ Page loaded successfully.
+Error opening 'Datadog AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 60/109: https://www.xenonstack.com/ai-agents/datadog-agents-actions/ -> Datadog AI Agents
+✅ Page loaded successfully.
+Error opening 'Datadog AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 61/109: https://www.xenonstack.com/ai-agents/dynatrace-agents-actions/ -> DynaTrace AI Agents
+✅ Page loaded successfully.
+Error opening 'DynaTrace AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 61/109: https://www.xenonstack.com/ai-agents/dynatrace-agents-actions/ -> DynaTrace AI Agents
+✅ Page loaded successfully.
+Error opening 'DynaTrace AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 62/109: https://www.xenonstack.com/ai-agents/splunk-agents-actions/ -> Splunk AI Agents
+✅ Page loaded successfully.
+Error opening 'Splunk AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 62/109: https://www.xenonstack.com/ai-agents/splunk-agents-actions/ -> Splunk AI Agents
+✅ Page loaded successfully.
+Error opening 'Splunk AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 63/109: https://www.xenonstack.com/ai-agents/bigquery-agents-actions/ -> BigQuery AI Agents
+✅ Page loaded successfully.
+Error opening 'BigQuery AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 63/109: https://www.xenonstack.com/ai-agents/bigquery-agents-actions/ -> BigQuery AI Agents
+✅ Page loaded successfully.
+Error opening 'BigQuery AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 64/109: https://www.xenonstack.com/ai-agents/sap-agents-actions/ -> SAP AI Agents
+✅ Page loaded successfully.
+Error opening 'SAP AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 64/109: https://www.xenonstack.com/ai-agents/sap-agents-actions/ -> SAP AI Agents
+✅ Page loaded successfully.
+Error opening 'SAP AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 65/109: https://www.xenonstack.com/ai-agents/infor-agents-actions/ -> Infor AI Agents
+✅ Page loaded successfully.
+Error opening 'Infor AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 65/109: https://www.xenonstack.com/ai-agents/infor-agents-actions/ -> Infor AI Agents
+✅ Page loaded successfully.
+Error opening 'Infor AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 66/109: https://www.xenonstack.com/ai-agents/oracle-agents-actions/ -> Oracle AI Agents
+✅ Page loaded successfully.
+Error opening 'Oracle AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 66/109: https://www.xenonstack.com/ai-agents/oracle-agents-actions/ -> Oracle AI Agents
+✅ Page loaded successfully.
+Error opening 'Oracle AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 67/109: https://www.xenonstack.com/ai-agents/workday-agents-actions/ -> WorkDay AI Agents
+✅ Page loaded successfully.
+Error opening 'WorkDay AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 67/109: https://www.xenonstack.com/ai-agents/workday-agents-actions/ -> WorkDay AI Agents
+✅ Page loaded successfully.
+Error opening 'WorkDay AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 68/109: https://www.xenonstack.com/ai-agents/jira-agents-actions/ -> Jira AI Agents
+✅ Page loaded successfully.
+Error opening 'Jira AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 68/109: https://www.xenonstack.com/ai-agents/jira-agents-actions/ -> Jira AI Agents
+✅ Page loaded successfully.
+Error opening 'Jira AI Agents': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 69/109: https://www.xenonstack.com/industries/aerospace/ -> Aerospace and Aviation
+✅ Page loaded successfully.
+Error opening 'Aerospace and Aviation': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 69/109: https://www.xenonstack.com/industries/aerospace/ -> Aerospace and Aviation
+✅ Page loaded successfully.
+Error opening 'Aerospace and Aviation': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 70/109: https://www.xenonstack.com/industries/banking/ -> Financial Services
+✅ Page loaded successfully.
+Error opening 'Financial Services': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 70/109: https://www.xenonstack.com/industries/banking/ -> Financial Services
+✅ Page loaded successfully.
+Error opening 'Financial Services': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 71/109: https://www.xenonstack.com/industries/banking/# -> Automotive And Industrial
+✅ Page loaded successfully.
+Error opening 'Automotive And Industrial': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 71/109: https://www.xenonstack.com/industries/banking/# -> Automotive And Industrial
+✅ Page loaded successfully.
+Error opening 'Automotive And Industrial': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 72/109: https://www.xenonstack.com/industries/consumer-technology/ -> Consumer Tech
+✅ Page loaded successfully.
+Error opening 'Consumer Tech': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 72/109: https://www.xenonstack.com/industries/consumer-technology/ -> Consumer Tech
+✅ Page loaded successfully.
+Error opening 'Consumer Tech': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 73/109: https://www.xenonstack.com/industries/enterprise-technology/ -> Technology, Media and Telco
+✅ Page loaded successfully.
+Error opening 'Technology, Media and Telco': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 73/109: https://www.xenonstack.com/industries/enterprise-technology/ -> Technology, Media and Telco
+✅ Page loaded successfully.
+Error opening 'Technology, Media and Telco': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 74/109: https://www.xenonstack.com/industries/transportation-technology-solutions/ -> Supply Chain and Logistics
+✅ Page loaded successfully.
+Error opening 'Supply Chain and Logistics': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 74/109: https://www.xenonstack.com/industries/transportation-technology-solutions/ -> Supply Chain and Logistics
+✅ Page loaded successfully.
+Error opening 'Supply Chain and Logistics': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 75/109: https://www.xenonstack.com/industries/travel-hospitality/ -> Hospitality and Tourism
+✅ Page loaded successfully.
+Error opening 'Hospitality and Tourism': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 75/109: https://www.xenonstack.com/industries/travel-hospitality/ -> Hospitality and Tourism
+✅ Page loaded successfully.
+Error opening 'Hospitality and Tourism': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 76/109: https://www.xenonstack.com/industries/digital-manufacturing-services/ -> Discrete Manufacturing
+✅ Page loaded successfully.
+Error opening 'Discrete Manufacturing': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 76/109: https://www.xenonstack.com/industries/digital-manufacturing-services/ -> Discrete Manufacturing
+✅ Page loaded successfully.
+Error opening 'Discrete Manufacturing': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 77/109: https://www.xenonstack.com/managed-services/managed-ai-services/ -> AI Managed Services
+✅ Page loaded successfully.
+Error opening 'AI Managed Services': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 77/109: https://www.xenonstack.com/managed-services/managed-ai-services/ -> AI Managed Services
+✅ Page loaded successfully.
+Error opening 'AI Managed Services': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 78/109: https://www.xenonstack.com/managed-services/kubernetes/ -> Kubernetes Managed Services
+✅ Page loaded successfully.
+Error opening 'Kubernetes Managed Services': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 78/109: https://www.xenonstack.com/managed-services/kubernetes/ -> Kubernetes Managed Services
+✅ Page loaded successfully.
+Error opening 'Kubernetes Managed Services': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 79/109: https://www.xenonstack.com/managed-services/site-reliability-engineering/ -> SRE as a Service
+✅ Page loaded successfully.
+Error opening 'SRE as a Service': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 79/109: https://www.xenonstack.com/managed-services/site-reliability-engineering/ -> SRE as a Service
+✅ Page loaded successfully.
+Error opening 'SRE as a Service': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 80/109: https://www.xenonstack.com/managed-services/big-data/ -> Data Managed Services
+✅ Page loaded successfully.
+Error opening 'Data Managed Services': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 80/109: https://www.xenonstack.com/managed-services/big-data/ -> Data Managed Services
+✅ Page loaded successfully.
+Error opening 'Data Managed Services': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Analytics Managed Services' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Analytics Managed Services' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 82/109: https://www.xenonstack.com/readiness-assessment/data-protection/ -> Data Protection
+Error opening 'Data Protection': timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=134.0.6998.178)
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 82/109: https://www.xenonstack.com/readiness-assessment/data-protection/ -> Data Protection
+Error opening 'Data Protection': timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=134.0.6998.178)
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 83/109: https://www.xenonstack.com/managed-services/on-premise-ai-cluster/ -> On-Premise AI
+✅ Page loaded successfully.
+Error opening 'On-Premise AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 83/109: https://www.xenonstack.com/managed-services/on-premise-ai-cluster/ -> On-Premise AI
+✅ Page loaded successfully.
+Error opening 'On-Premise AI': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Private Cloud' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Private Cloud' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Internal Developer Platform' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Internal Developer Platform' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'AI Inference' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'AI Inference' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Open-Source Data Platform' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Open-Source Data Platform' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'AI Trust Score' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'AI Trust Score' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Autonomous SoC' - No href attribute.
+⏳ Stale element error. Retrying...
+⏭️ Skipping 'Autonomous SoC' - No href attribute.
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 90/109: https://www.xenonstack.com/solutions/digital-twin/ -> Digital Twin
+✅ Page loaded successfully.
+Error opening 'Digital Twin': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 90/109: https://www.xenonstack.com/solutions/digital-twin/ -> Digital Twin
+✅ Page loaded successfully.
+Error opening 'Digital Twin': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 91/109: https://www.xenonstack.com/readiness-assessment/ -> Readiness Assessment
+✅ Page loaded successfully.
+Error opening 'Readiness Assessment': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 91/109: https://www.xenonstack.com/readiness-assessment/ -> Readiness Assessment
+✅ Page loaded successfully.
+Error opening 'Readiness Assessment': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 92/109: https://www.xenonstack.com/talk-to-specialist/ -> Talk To Specialist
+✅ Page loaded successfully.
+Error opening 'Talk To Specialist': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 92/109: https://www.xenonstack.com/talk-to-specialist/ -> Talk To Specialist
+✅ Page loaded successfully.
+Error opening 'Talk To Specialist': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 93/109: https://www.xenonstack.com/about-us/ -> About Us
+✅ Page loaded successfully.
+Error opening 'About Us': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 93/109: https://www.xenonstack.com/about-us/ -> About Us
+✅ Page loaded successfully.
+Error opening 'About Us': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 94/109: https://www.xenonstack.com/about-us/leadership-team/ -> Leadership Team
+✅ Page loaded successfully.
+Error opening 'Leadership Team': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 94/109: https://www.xenonstack.com/about-us/leadership-team/ -> Leadership Team
+✅ Page loaded successfully.
+Error opening 'Leadership Team': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 95/109: https://www.xenonstack.com/about-us/tao-of-xenonstack/ -> TAO of XenonStack
+✅ Page loaded successfully.
+Error opening 'TAO of XenonStack': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 95/109: https://www.xenonstack.com/about-us/tao-of-xenonstack/ -> TAO of XenonStack
+✅ Page loaded successfully.
+Error opening 'TAO of XenonStack': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 96/109: https://www.xenonstack.com/about-us/how-we-grow/ -> How We Grow
+✅ Page loaded successfully.
+Error opening 'How We Grow': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 96/109: https://www.xenonstack.com/about-us/how-we-grow/ -> How We Grow
+✅ Page loaded successfully.
+Error opening 'How We Grow': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 97/109: https://www.xenonstack.com/about-us/how-we-work/ -> How We Work
+✅ Page loaded successfully.
+Error opening 'How We Work': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 97/109: https://www.xenonstack.com/about-us/how-we-work/ -> How We Work
+✅ Page loaded successfully.
+Error opening 'How We Work': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 98/109: https://www.xenonstack.com/careers/ -> Careers
+✅ Page loaded successfully.
+Error opening 'Careers': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 98/109: https://www.xenonstack.com/careers/ -> Careers
+✅ Page loaded successfully.
+Error opening 'Careers': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 99/109: https://www.xenonstack.com/xenonstack-academy/ -> XA - QSIR
+✅ Page loaded successfully.
+Error opening 'XA - QSIR': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 99/109: https://www.xenonstack.com/xenonstack-academy/ -> XA - QSIR
+✅ Page loaded successfully.
+Error opening 'XA - QSIR': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 100/109: https://www.xenonstack.com/blog -> Blog
+✅ Page loaded successfully.
+Error opening 'Blog': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 100/109: https://www.xenonstack.com/blog -> Blog
+✅ Page loaded successfully.
+Error opening 'Blog': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 101/109: https://www.xenonstack.com/insights/ -> Insights
+✅ Page loaded successfully.
+Error opening 'Insights': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 101/109: https://www.xenonstack.com/insights/ -> Insights
+✅ Page loaded successfully.
+Error opening 'Insights': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 102/109: https://www.xenonstack.com/use-cases -> Use Cases
+✅ Page loaded successfully.
+Error opening 'Use Cases': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 102/109: https://www.xenonstack.com/use-cases -> Use Cases
+✅ Page loaded successfully.
+Error opening 'Use Cases': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏰ Checking Footer Link 103/109: https://www.xenonstack.com/case-studies -> Case Study
+✅ Page loaded successfully.
+Error opening 'Case Study': until.Condition is not a constructor
+⏳ Stale element error. Retrying...
+⏭️ Skipping missing link at index 102
+⏭️ Skipping missing link at index 103
+⏭️ Skipping missing link at index 104
+⏭️ Skipping missing link at index 105
+⏭️ Skipping missing link at index 106
+⏭️ Skipping missing link at index 107
+⏭️ Skipping missing link at index 108
+✅ Footer Test Completed Successfully.
+    ✔ Test Case 1: Footer links (353634ms)
+New page opened: https://www.xenonstack.com/agentic-platforms/akira-ai/
+New page opened: https://www.xenonstack.com/agentic-platforms/elixirdata/
+New page opened: https://www.xenonstack.com/agentic-platforms/neural-ai/
+New page opened: https://www.xenonstack.com/agentic-platforms/nexastack-unified-inference/
+New page opened: https://akirastack.com/
+New page opened: https://www.xenonstack.com/agentic-platforms/metasecure/
+New page opened: https://www.xenonstack.com/xenonstack-academy/
+New page opened: https://www.xenonstack.com/agentic-ai/
+New page opened: https://xenonify.ai/
+✅ All buttons are working properly
+    ✔ Test Case 2: Homepage All Buttons (34526ms)
+✅ Invalid page handling test passed.✅
+    ✔ Test Case 3: Handle Invalid Page Checking (3222ms)
+Clicked on 'Foundry' and page scrolled.
+Clicked on 'Neural AI' and page scrolled.
+Clicked on 'NexaStack' and page scrolled.
+Clicked on 'ElixirData' and page scrolled.
+Clicked on 'MetaSecure' and page scrolled.
+Clicked on 'Akira AI' and page scrolled.
+Clicked on 'XAI' and page scrolled.
+✅Navbar test case completed successfully
+    ✔ Test Case 4: Navbar Links Testing (9277ms)
+✅ Test passed: The logo click scrolled the page to the top.
+    ✔ Test Case 5: Homepage Xenonstack Logo Checking (3896ms)
+
+DevTools listening on ws://127.0.0.1:57991/devtools/browser/a13dee44-c1e7-4e9a-8ab1-073abb9ab4f3
+desktop: Website loaded successfully at 1920x1080 resolution
+desktop: Scrolled down the webpage successfully
+
+DevTools listening on ws://127.0.0.1:58030/devtools/browser/97ec5cab-e46e-4044-96b3-2b5c63c3ce4e
+tablet: Website loaded successfully at 768x1024 resolution
+tablet: Scrolled down the webpage successfully
+
+DevTools listening on ws://127.0.0.1:58081/devtools/browser/fef097ef-86bd-4cf3-8f5c-46c9af57fb15
+mobile: Website loaded successfully at 375x667 resolution
+mobile: Scrolled down the webpage successfully
+✅ Compatibility testing for different devices completed.
+    ✔ Test Case 6: Perform Compatibility tests for different devices (16877ms)
+
+DevTools listening on ws://127.0.0.1:58128/devtools/browser/bade9b08-93f1-43a3-a63b-83f11324e900
+Page Load Time: 3814 ms
+✅ Test case passed successfully
+    ✔ Test Case 7: Measure page load time (4857ms)
+
+DevTools listening on ws://127.0.0.1:58174/devtools/browser/ec2c74af-176f-4724-a5d5-dd4025c6e0e8
+✅ Button Click Response Time: 78 ms
+    ✔ Test Case 8: Measure button click response time (4866ms)
+Invalid input test for first name validation passed.
+Invalid input test for last name validation passed.
+Invalid input test for email validation passed.
+Invalid input test for contact number validation passed.
+Invalid input test for company name validation passed.
+✅ Invalid input test validation passed.
+    ✔ Test Case 9: GetStarted Invalid Inputs (2924ms)
+✅ Valid input test completed successfully
+    ✔ Test Case 10: GetStarted Valid Inputs (2114ms)
+
+
+  10 passing (7m)
